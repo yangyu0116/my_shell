@@ -3,7 +3,7 @@
 
 send_mail()
 {
-	mutt -s "【报警】bc-v01 php进程异常_$1%" yangyu@guazi.com
+	mutt -s "【报警】bc-v01 php进程异常_$1%" yangyu@sina.cn
 }
 
 for d in `ps -ef | grep php-fpm | wc -l`
